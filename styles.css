@@ -1,0 +1,167 @@
+body {
+    font-family:Montserrat,sans-serif;
+    color:#F0EEEC;
+    background-color:#F0EEEC;
+}
+
+.head {
+    background-color:#d0a47d;
+    border-radius:15px;
+    padding:50px;
+}
+
+.head h1 {
+    font-size:4vw;
+    color:#F0EEEC;
+}
+
+.head h2 {
+    color:#F0EEEC;
+}
+.nav ul {
+    list-style-type:none;
+    float:right;
+    margin-right:100px;
+}
+
+.nav ul li {
+    display:inline-block;
+    margin-left:20px;
+}
+
+@media screen and (max-width:800px) {
+    .nav ul {
+        float:none;
+    }
+    .nav ul li {
+        display:block;
+        margin-top:20px;
+    }
+}
+
+#profile {
+    max-width:20%;
+    height:auto;
+    border-radius:50%;
+    float: left;
+    padding:20px;
+    margin-left:50px;
+}
+
+@media screen and (max-width:1000px) {
+    #profile {
+        display:none;
+    }
+}
+
+.about,.work,.contact {
+    display:flex;
+}
+
+.about p {
+    background-color:#353a34;
+    padding:20px;
+    margin-left:50px;
+    margin-right:25px;
+    border-radius:15px;
+}
+
+.about h2 {
+    color:#353a34;
+    padding:20px 0px 0px 55px;
+}
+
+.head h2,.about h2,.work h2,.contact h2 {
+    font-size:2vw;
+}
+
+.nav ul {
+    font-size:1.2vw;
+}
+
+.about p,.contact p,.footer p {
+    font-size:1.3vw;
+}
+
+.work {
+    background-color:#a3a598;
+    border-radius:15px;
+    margin-left:50px;
+    margin-right:25px;
+}
+
+.work h2 {
+    padding:20px 0px 0px 55px;
+}
+
+#Horiseon {
+    max-width:40%;
+    height:auto;
+    float:right;
+    margin-right:50px;
+    padding:10px;
+    border-radius:35px;
+}
+
+@media screen and (max-width:750px) {
+    #Horiseon {
+        margin-right:250px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #Horiseon {
+        margin-right:150px;
+    }
+}
+
+.Project1 {
+    position:absolute;
+    top:1000px;
+    right:300px;
+}
+
+.Project2 {
+    position:absolute;
+    top:1250px;
+    left:150px;
+}
+
+.Project1,.Project2 {
+    background-color:#d0a47d;
+    padding:10px;
+    color:#F0EEEC;
+    border-radius:5px;
+    font-size:1.2vw;
+}
+
+@media screen and (max-width:1200px) {
+    .Project1,.Project2 {
+        display:none;
+    }
+}
+
+#Prework {
+    max-width:47%;
+    height:auto;
+    margin-left:60px;
+    margin-bottom:40px;
+    border-radius:30px;
+    padding-top:5px;
+}
+
+.contact {
+    margin-left:50px;
+    margin-right:25px;
+}
+#number {
+    padding:30px;
+    color:#353a34;
+}
+
+.footer {
+    text-align:center;
+    background-color:#d0a47d;
+    padding:5px;
+    border-radius:10px;
+}
